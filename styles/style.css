@@ -1,0 +1,122 @@
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  height: 100%;
+}
+body {
+  display: grid;
+  min-height: 100%;
+  width: 90%;
+  max-width: 1440px;
+  margin: auto;
+  background-color: var(--violet);
+  background-image: url('./images/bg-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  padding: 2rem 0;
+}
+.header-logo {
+  width: max(12vw, 130px);
+}
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro-img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+.intro-text {
+  padding: calc(8px + 1.5625vw);
+  text-align: center;
+  color: white;
+}
+.intro-text h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(24px, 3vw, 36px);
+}
+.intro-text p {
+  padding: calc(8px + 1.5625vw);
+  font-size: clamp(16px, 2vw, 22px);
+  font-weight: lighter ;
+  line-height: 1.5;
+}
+.intro-link {
+  display: block;
+  width: min(55vw, 200px);
+  padding: .8rem;
+  margin: 1rem auto;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 24px;
+  background-color: white;
+  color: var(--violet);
+  box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.5);
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  padding: 1rem 2rem;
+}
+.social-menu {
+  display: flex;
+  list-style-type: none;
+}
+.social-menu i {
+  padding: 1rem;
+  margin: .3rem;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+@media screen and (min-width: 992px) {  
+  body {
+    background-image: url('./images/bg-desktop.svg');
+    background-position: right 10vw top;
+    background-size: cover;
+  }
+  .intro-section {
+    flex-direction: row;    
+  }
+  .img-container {
+    width: 45%;
+  }
+  .intro-text {
+    width: 55%;
+    text-align: left;
+  }
+  .intro-text p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .intro-link {
+    margin: 0;
+  }
+  .intro-link:hover {
+    background-color: var(--soft-magenta);
+    color: white;
+    transition: all 0.1s ease;
+  }
+  footer {
+    justify-content: flex-end;
+  }
+  .social-menu i:hover {
+    color: var(--soft-magenta);
+    border: 1px solid var(--soft-magenta);
+  }
+}
