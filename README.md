@@ -1,11 +1,4 @@
-# 👩‍💻 Frontend Mentor - Huddle landing page with single introductory section
-
-[Frontend Mentor challenges](https://www.frontendmentor.io/) help you improve your coding skills by building realistic projects.
-
-This is a solution for [Landing Page with a Single Introductory Section](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0) challenge.
-
-![Design preview for the  Huddle landing page with single introductory section](./styles/images/preview.png)
-
+# 👩‍💻 Huddle landing page with single introductory section
 
 ## The challenge
 
@@ -23,10 +16,19 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-## Live site solution
 
-[Live site](https://amansgz.github.io/css-landing-page-with-intro-section/) deployed with GitHub Pages.
+<div>
+  <h3>
+    <a href= "https://amansgz.github.io/css-landing-page-with-intro-section/">
+      Live site
+    </a>
+    <span> | </span>
+    <a href= "https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-## Author
+![Design preview for the  Huddle landing page with single introductory section](./styles/images/preview.png)
 
-- Frontend Mentor - [@amansgz](https://www.frontendmentor.io/profile/amansgz)
+This application/site was created as a submission to <a href= "https://www.frontendmentor.io/">Frontend Mentor Challenges</a> 
