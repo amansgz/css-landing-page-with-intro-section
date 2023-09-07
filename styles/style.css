@@ -135,27 +135,27 @@ img {
 @media screen and (min-width: 992px) {  
   body {
     background-image: url('./images/bg-desktop.svg');
-    background-position: right 3vw top -1vh;
+    background-position: right 5vw top -1vh;
     background-size: 103% 109%;
   }
   main {
     display: grid;
-    place-content: center;
+    align-content: center;
     height: 80vh;
   }
   .flex-container {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
-    gap: 2em;
+    margin-top: 4rem;
   }
   .content { 
     align-items: start;
     margin-top: 1rem;
     text-align: left;
+    padding-left: 4rem;
   }
   .content__text {
-    width: 49ch;
+    width: 50ch;
   }
   .social__menu {
     justify-content: flex-end;
